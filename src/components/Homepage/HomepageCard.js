@@ -20,7 +20,7 @@ export default function HomepageCard() {
     const fetchRecipeData = async () => {
       try {
         let apiUrl =
-          "https://api.spoonacular.com/recipes/random?number=100&apiKey=c55ec912f8464edc99d4de310a43ae29";
+          "https://api.spoonacular.com/recipes/random?number=100&apiKey=d848641355e748b58309270281893991";
         if (searchQuery) {
           apiUrl += `&query=${searchQuery}`;
         }

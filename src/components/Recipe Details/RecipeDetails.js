@@ -12,7 +12,7 @@ export default function RecipeDetails() {
     const fetchRecipeDetails = async () => {
       try {
         const response = await axios.get(
-          `https://api.spoonacular.com/recipes/${id}/information?apiKey=c55ec912f8464edc99d4de310a43ae29`
+          `https://api.spoonacular.com/recipes/${id}/information?apiKey=d848641355e748b58309270281893991`
         );
         setRecipeDetails(response.data);
       } catch (error) {
